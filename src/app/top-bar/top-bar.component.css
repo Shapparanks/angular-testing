@@ -1,0 +1,48 @@
+.nav {
+  height: 7rem;
+}
+
+.nav__logo-container {
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  height: 3rem;
+}
+
+.nav__logo-container img {
+  height: 100%;
+}
+
+.nav__flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__list:last-child {
+  margin-left: auto;
+}
+
+.nav__item {
+  margin-left: 3rem;
+}
+
+.nav__item a {
+  text-decoration: none;
+  color: #888;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.nav__item a:hover {
+  color: var(--secondary-blue);
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
